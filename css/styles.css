@@ -595,8 +595,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.container-form-footer {
-}
+
 .form {
   display: flex;
   gap: 24px;
