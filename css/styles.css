@@ -640,6 +640,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 
+  padding: 72px 24px 24px 24px;
   min-width: 408px;
   min-height: 576px;
 
@@ -684,7 +685,7 @@ img {
 
 .modal-hero-text {
   margin: 0;
-  padding-top: 72px;
+
   margin-bottom: 16px;
   font-style: normal;
   font-weight: 500;
@@ -696,8 +697,7 @@ img {
   color: #2e2f42;
 }
 .form-modal {
-  padding-right: 24px;
-  padding-left: 24px;
+  width: 360px;
 }
 .input-modal {
   padding-left: 38px;
@@ -714,12 +714,27 @@ img {
   border: 1px solid var(--buton-text-color);
 }
 .form-modal-text {
+  display: block;
   margin: 0;
   margin-bottom: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: 0.01em;
+
+  color: #8e8f99;
 }
-.div-flex-label-modal {
+
+.div-label-modal {
   margin-bottom: 8px;
 }
+
+.div-label-moda-textarea {
+  margin-bottom: 16px;
+}
+
 .input-modal-aria {
   width: 100%;
   min-height: 120px;
@@ -727,6 +742,21 @@ img {
 .relative-modal-position {
   position: relative;
   display: block;
+}
+
+.label-checkbox-stylization {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: 0.04em;
+
+  color: #8e8f99;
 }
 
 .modal-form-svg {
@@ -741,10 +771,18 @@ img {
 }
 .textarea-modal {
   resize: none;
+  outline: none;
+  border: none;
   width: 100%;
   min-height: 120px;
   padding-left: 16px;
   padding-top: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  color: #2e2f42;
+}
+.textarea-modal:focus {
+  border-color: var(--buton-text-color);
 }
 .button-modal-form {
   display: flex;
