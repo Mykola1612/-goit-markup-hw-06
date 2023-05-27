@@ -747,9 +747,8 @@ img {
 }
 
 .label-checkbox-stylization {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  display: block;
+
   margin-bottom: 26px;
   font-style: normal;
   font-weight: 400;
@@ -760,7 +759,22 @@ img {
 
   color: #8e8f99;
 }
+.check-mark {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  margin-right: 8px;
+}
 
+.checkbox-appearance:checked + .check-mark {
+  background-color: var(--Pressed-state-color);
+  background-image: url(../images/check_mark.svg);
+  background-size: contain;
+  background-origin: border-box;
+  border: none;
+}
 .checkbox-link {
   font-style: normal;
   font-weight: 400;
@@ -794,6 +808,10 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   color: #2e2f42;
+}
+.checkbox-appearance {
+  appearance: none;
+  position: absolute;
 }
 .textarea-modal:focus {
   border-color: var(--buton-text-color);
