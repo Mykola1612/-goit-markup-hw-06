@@ -787,9 +787,9 @@ img {
   border-color: var(--buton-text-color);
 }
 .button-modal-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   padding: 16px 32px;
 
   width: 169px;
@@ -806,10 +806,7 @@ img {
 .button-modal-form:hover {
   background-color: var(--Pressed-state-color);
 }
-.button-modal-form-container {
-  display: flex;
-  justify-content: center;
-}
+
 /* portfolio.html */
 
 .portfolio-main {
