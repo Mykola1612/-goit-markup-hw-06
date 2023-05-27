@@ -752,6 +752,7 @@ img {
 .label-checkbox-stylization {
   display: flex;
   align-items: center;
+  justify-content: center;
 
   font-style: normal;
   font-weight: 400;
