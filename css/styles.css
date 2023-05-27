@@ -792,14 +792,23 @@ img {
   margin-left: auto;
   padding: 16px 32px;
 
-  width: 169px;
+  min-width: 169px;
   height: 56px;
 
   border: none;
   background-color: var(--buton-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #fff;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-modal-form:focus,
