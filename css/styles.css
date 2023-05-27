@@ -747,7 +747,7 @@ img {
 }
 
 .label-checkbox-stylization {
-  display: block;
+  display: inline-block;
 
   margin-bottom: 26px;
   font-style: normal;
@@ -760,7 +760,9 @@ img {
   color: #8e8f99;
 }
 .check-mark {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -773,7 +775,7 @@ img {
   background-image: url(../images/check_mark.svg);
   background-size: contain;
   background-origin: border-box;
-  border: none;
+  border-color: var(--Pressed-state-color);
 }
 .checkbox-link {
   font-style: normal;
