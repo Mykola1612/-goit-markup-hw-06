@@ -768,7 +768,7 @@ img {
   margin-right: 8px;
 }
 
-.checkbox-appearance:checked + .check-mark {
+.checkbox-appearance:checked ~ .label-checkbox-stylization .check-mark {
   background-color: var(--Pressed-state-color);
   background-image: url(../images/check_mark.svg);
   background-size: contain;
