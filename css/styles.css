@@ -746,10 +746,13 @@ img {
   display: block;
 }
 
+.policy-container {
+  margin-bottom: 24px;
+}
 .label-checkbox-stylization {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 
-  margin-bottom: 26px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -812,7 +815,7 @@ img {
   color: #2e2f42;
 }
 .checkbox-appearance {
-  appearance: none;
+  visibility: hidden;
   position: absolute;
 }
 .textarea-modal:focus {
