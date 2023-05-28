@@ -813,7 +813,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
 
-  color: var(--pitel-text-color);
+  color: rgba(46, 47, 66, 0.4);
   letter-spacing: 0.04em;
 
   background-color: transparent;
