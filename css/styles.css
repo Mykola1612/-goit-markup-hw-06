@@ -771,7 +771,7 @@ img {
   fill: transparent;
 }
 
-.visually-hidden :checked ~ .label-checkbox-stylization .check-mark {
+.visually-hidden:checked ~ .label-checkbox-stylization .check-mark {
   background-color: var(--Pressed-state-color);
 
   background-origin: border-box;
@@ -807,7 +807,7 @@ img {
   width: 100%;
   min-height: 120px;
   padding: 8px 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
   font-weight: 400;
   font-size: 12px;
