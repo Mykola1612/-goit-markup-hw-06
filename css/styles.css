@@ -829,13 +829,14 @@ img {
   width: 100%;
   min-height: 120px;
   padding: 8px 16px;
-  border: 1px solid rgba(46, 47, 66, 0.2);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
 
+  color: #2e2f42;
   letter-spacing: 0.04em;
 
   background-color: transparent;
