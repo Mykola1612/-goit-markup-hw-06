@@ -721,12 +721,9 @@ img {
   font-size: 12px;
   line-height: 1.17;
 
-  letter-spacing: 0.01em;
+  letter-spacing: 0.04em;
 
   color: #8e8f99;
-}
-.label-name {
-  letter-spacing: 0.04em;
 }
 
 .div-label-modal {
