@@ -771,7 +771,7 @@ img {
   fill: transparent;
 }
 
-.checkbox-appearance:checked ~ .label-checkbox-stylization .check-mark {
+.visually-hidden :checked ~ .label-checkbox-stylization .check-mark {
   background-color: var(--Pressed-state-color);
 
   background-origin: border-box;
@@ -822,7 +822,7 @@ img {
 .textarea-modal::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
-.visibility-hidden {
+.visually-hidden {
   appearance: none;
   position: absolute;
 }
