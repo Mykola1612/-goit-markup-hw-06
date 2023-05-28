@@ -776,7 +776,7 @@ img {
 
   background-origin: border-box;
   border: none;
-  fill: var(--main-color-svg);
+  fill: var(--hero-text-color);
   border-color: var(--Pressed-state-color);
 }
 .checkbox-link {
@@ -822,10 +822,11 @@ img {
 .textarea-modal::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
-.checkbox-appearance {
-  visibility: hidden;
+.visibility-hidden {
+  appearance: none;
   position: absolute;
 }
+
 .textarea-modal:focus {
   border-color: var(--buton-text-color);
 }
